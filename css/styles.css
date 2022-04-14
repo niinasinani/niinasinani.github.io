@@ -1,2 +1,197 @@
-body { color: white;
-background-color: black; }
+img		{
+		width: 100%;
+}
+
+h1		{
+		font-size: 30px;
+		font-family: Arial;
+		text-align: center;
+		margin: 40px;
+		margin-bottom: 10px;
+}
+
+h5		{
+		font-size: 15px;
+		text-align: center;
+		margin-top: 40px;
+		font-family: Courier New;
+		
+}
+
+.col-	{
+		text-align: center;
+		font-size: 20px;
+		margin-top: 50px;
+}
+
+.navbar-custom	{
+		color: red;
+		text-transform: uppercase;
+}
+
+.navbar		{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a:link		{
+		color: gray;
+		text-decoration: none;
+}
+
+a:visited	{
+		color: gray;
+}
+
+.col-6		{
+			margin-top: 30px;
+}
+
+.col-12		{
+		text-align: center;
+		padding-right: 250px;
+		padding-left: 250px;
+		margin-bottom: 30px;
+}
+
+.img-fluid	{
+	cursor: pointer;
+}
+
+
+
+input[type=text]	{
+			background-color: #F8F8F8;
+}
+		
+input[type=email]	{
+			background-color: #F8F8F8;
+}
+
+#viesti		{
+			background-color: #F8F8F8;
+}
+
+
+p			{
+		font-size:	15px;
+		
+}
+
+.center {
+  margin: auto;
+  width: 55%;
+  border: 1px solid lightgray;
+  padding: 30px;
+  box-shadow: 20px 20px 20px 5px lightgray;
+}
+
+footer	{
+		margin-top: 30px;
+}
+
+.pesulogo	{
+		 margin-top: 0px;
+}
+
+
+.img-hover-zoom {
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(0.9);
+}
+
+iframe		{
+		 width: 400px;
+		 height: 300px;
+         
+}
+
+ul			{
+			font-size: 15px;
+			text-align: left;
+}
+
+.arrow {
+  border: solid lightgray;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.dropdown-item.active, .dropdown-item:active { 
+  background-color: #690303; 
+  color: lightgray;
+
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: unset;
+  color: lightgray;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .col-6 {
+        width: 100% ;
+    }
+	
+	textarea	{
+		max-width: 95%
+	}
+	
+	iframe{
+		max-width: 100%
+	}
+   
+   .center	{
+	   width: 100%
+   }
+   
+   .col-12	{
+	   padding: 0px;
+   }
+   
+   button	{
+	   margin-top: 4px;
+   }
+  
+   
+   .img-hover-zoom	{
+		height: auto !important;
+	}
+		.pesulogo	{
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 680px) {
+	.pesulogo	{
+		margin-top: 60px;
+	}
+}
+
+@media (max-width: 521px) {
+	.pesulogo	{
+		margin-top: 60px;
+	}
+}
